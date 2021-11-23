@@ -2,7 +2,7 @@
 The purpose of this repository is to help people learn the basics of testing in Swift.
  I decided to prepare this repository because many people reached out to ask for advice and guidance on testing their code. I think that this is the fastest way to help as many people as I can.
 
-The idea is to read the theory and the examples in the repository, execute the exercises and ask for a code review. See the [How To Work With This Repository](#how-to-work-with-this-repositoy) section to know how to request help.
+The idea is to read the theory and the examples in the repository, execute the exercises and ask for a code review. See the [How To Work With This Repository](#how-to-work-with-this-repository) section to know how to request help.
  
  ## Content
  
