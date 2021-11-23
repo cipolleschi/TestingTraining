@@ -12,7 +12,7 @@ The idea is to read the theory and the examples in the repository, execute the e
  For every chapter, I'll try to explain the theory, provide some examples and leave some exercises to work with the concepts.
  
  ### Summary
- 1. Basics and Pure Functions
+ 1. [Basics and Pure Functions](./Chapter1)
  2. Tesing in An OOP Settings
  3. Working with Dependencies
  4. Avoiding Expectations in Tests 
