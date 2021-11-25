@@ -140,7 +140,7 @@ Welcome to the practical part of the first chapter.
 
 In this section, we prepared an Xcode project with some pure functions. Your task is to write a good test suite for the tests.
 
-The project is a framework called `Calculator`. The project has also a `CalculatorTests` that you can use to add your tests.
+The project is a framework called `Calculator`. The project has also a `CalculatorTests` that you can use to add your tests. To open it, simply double click on the `Package.swift` file.
 
 The project starts with a `AddTests.swift` file with a unit test already implemented: you can press `cmd+U` to build and run it and make sure that the test is passing.
 
@@ -150,19 +150,25 @@ The first thing to do is to enable the code coverage.
 
 Click on the Calculator in the top bar and choose `edit scheme ...`.
 
-[imge]
+![Edit Scheme](./images/edit_scheme.png)
 
 Select Test and tick the `Code Coverage` checkbox.
 
-[image]
+![Code Coverage](./images/gather_covarage.png)
 
 Run the tests once again.
 
-If you now open `Calculator.swift` file, you will see a red band on the right.
+Now, open the **Report Navigator** (`cmd+9`), select the `Coverage` line below the `Test`, and expand the `Calculator` item in the central pane. By hovering over the `Calculator.swift` file, a small arrow should appear. Click on it to be moved to the source file.
 
-[image]
+![Show Coverage](./images/check_coverage.png)
 
-When the band is red, it means that the line has not been tested. One objective of this chapter is to test all the lines of the Calculator.
+The source file will show some red bands on the right:
+
+![Red Bands](./images/red_bands.png)
+
+When the band is red, it means that the line has not been tested. The number, instead, shows how many times the line has been executed by the tests.
+
+One objective of this chapter is to test all the lines of the `Calculator` at least once.
 
 ### Task 2 - Complete the AddTests.swift file
 
