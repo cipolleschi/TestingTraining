@@ -154,7 +154,7 @@ Click on the Calculator in the top bar and choose `edit scheme ...`.
 
 Select Test and tick the `Code Coverage` checkbox.
 
-![Code Coverage](./images/gather_covarage.png)
+![Code Coverage](./images/gather_coverage.png)
 
 Run the tests once again.
 
