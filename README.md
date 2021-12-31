@@ -13,7 +13,7 @@ The idea is to read the theory and the examples in the repository, execute the e
  
  ### Summary
  1. [Basics and Pure Functions](./Chapter1)
- 2. Tesing in An OOP Settings
+ 2. [Tesing in An OOP Settings](./Chapter2)
  3. Working with Dependencies
  4. Avoiding Expectations in Tests 
  5. Test Driven Development
