@@ -11,9 +11,7 @@ import XCTest
 class TemperatureStationTests: XCTestCase {
 
     func testExample() throws {
-      let d = -10.5
-      print(d)
-      print(d.magnitude > 0)
+
     }
 
 }
