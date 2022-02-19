@@ -1,7 +1,7 @@
 import XCTest
 @testable import Calculator
 
-final class CalculatorTests: XCTestCase {
+final class CalculatorAddTests: XCTestCase {
   func testAdd_whenOnePlusOne_returnsTwo() throws {
     let first = 1
     let second = 1
@@ -33,8 +33,8 @@ final class CalculatorTests: XCTestCase {
   
   func testAdd_twoPlusThreeAndThreePlusTwo_returnsTheSameResult() throws {
     // commutative property: a + b = b + a
-    let first = 4
-    let second = 6
+    let first = 2
+    let second = 3
     
     let result1 = Calculator.add(first, second)
     let result2 = Calculator.add(second, first)
