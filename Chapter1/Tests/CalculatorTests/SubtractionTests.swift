@@ -1,7 +1,7 @@
 import XCTest
 @testable import Calculator
 
-final class CalculatorSubtractTests: XCTestCase {
+extension CalculatorTests {
   
   func testSubtract_whenTwoMinusOne_returnsOne() throws {
     let first = 2

@@ -1,7 +1,7 @@
 import XCTest
 @testable import Calculator
 
-final class CalculatorAddTests: XCTestCase {
+final class CalculatorTests: XCTestCase {
   func testAdd_whenOnePlusOne_returnsTwo() throws {
     let first = 1
     let second = 1
