@@ -195,13 +195,13 @@ means that we need to test the `add` function, passing `0` as the first paramete
 
 1. Create a new file and call it `SubtractionTests`
 
-2. Write tests for the division operation. Try to cover all the possible cases.
+2. Write tests for the subtract operation. Try to cover all the possible cases.
 
 ### Task 4 - Create a test to cover the multiply function.
 
 1. Create a new file and call it `MultiplyTests`
 
-2. Write tests for the division operation. Try to cover all the possible cases.
+2. Write tests for the multiply operation. Try to cover all the possible cases.
 
 ### Task 5 - Create a test to cover the division function.
 
@@ -213,10 +213,10 @@ means that we need to test the `add` function, passing `0` as the first paramete
 
 1. Create a new file and call it `AverageTests`
 
-2. Write tests for the division operation. Try to cover all the possible cases.
+2. Write tests for the average operation. Try to cover all the possible cases.
 
 ### Task 7 - Create a test to cover the modulus function.
 
 1. Create a new file and call it `ModulusTests`
 
-2. Write tests for the division operation. Try to cover all the possible cases.
+2. Write tests for the modulus operation. Try to cover all the possible cases.
