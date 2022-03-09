@@ -9,7 +9,7 @@ extension CalculatorTests {
     
     let result = Calculator.multiply(first, second)
     
-    XCTAssertEqual(result, 5)
+    XCTAssertEqual(result, first)
   }
   
   func testMultiply_whenZeroProperty_returnsZero() throws {
@@ -35,13 +35,31 @@ extension CalculatorTests {
   
   func testMultiply_twoMultipliedByThree_MultipliedByFour_AndTwoMultipliedBy_ThreeMultipliedByFour_returnsTheSameResult() throws {
     // associative property: (a * b) * c = a * (b * c)
-    let first = 2
-    let second = 3
-    let third = 4
+    let first = 5
+    let second = 19
+    let third = 54
     
     let result1 = Calculator.multiply(Calculator.multiply(first, second), third)
     let result2 = Calculator.multiply(first, Calculator.multiply(second, third))
     
     XCTAssertEqual(result1, result2)
+  }
+  
+  func testMultiply_withNegativeProperty() throws {
+    let first = 4
+    let second = -5
+    
+    let result = Calculator.multiply(first, second)
+    
+    XCTAssertEqual(result, -20)
+  }
+  
+  func testMultiply_withNegativeProperties() throws {
+    let first = -7
+    let second = -10
+    
+    let result = Calculator.multiply(first, second)
+    
+    XCTAssertEqual(result, 70)
   }
 }

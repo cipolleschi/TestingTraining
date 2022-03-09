@@ -29,7 +29,7 @@ extension CalculatorTests {
     
     let result = Calculator.subtract(first, second)
     
-    XCTAssertEqual(result, 3)
+    XCTAssertEqual(result, first)
   }
   
   func testSubtract_twoMinusThreeAndThreeMinusTwo_returnsTheOppositeResult() throws {
