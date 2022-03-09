@@ -18,7 +18,7 @@ final class CalculatorTests: XCTestCase {
     
     let result = Calculator.add(first, second)
     
-    XCTAssertEqual(result, 5)
+    XCTAssertEqual(result, second)
   }
   
   func testAdd_whenSecondIsZero_returnsFirst() throws {
@@ -28,7 +28,7 @@ final class CalculatorTests: XCTestCase {
     
     let result = Calculator.add(first, second)
     
-    XCTAssertEqual(result, 3)
+    XCTAssertEqual(result, first)
   }
   
   func testAdd_twoPlusThreeAndThreePlusTwo_returnsTheSameResult() throws {
